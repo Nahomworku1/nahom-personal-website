@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--==title=============================-->
+    <title>My Portfolio Website Using HTML CSS and JavaScript</title>
+    <!--==CSS===============================-->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--==fav-icon==========================-->
+    <link rel="shortcut icon" href="images/fav-icon.png" />
+    <!--==import-poppins-font===============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!--==font-awesome-for-icons============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--==swiper-slider=====================-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!--==aos-for animation=================-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="main-container">
+        <!--==Menu and Profile=============================-->
+        <div class="menu-profile">
+            <!--**header**********-->
+            <header>
+                <nav>
+                    <!--dark-light-btn-->
+                    <button class="dark-light-btn bg-gredient">
+                        <i class="fa-regular fa-sun"></i>
+                    </button>
+                    <!--menu-->
+                    <ul>
+                        <!--about-->
+                        <li><a href="#about-us" data-label="About" class="active">
+                                <i class="fa-solid fa-address-book"></i>
+                            </a></li>
+                        <!--skill-->
+                        <li><a href="#skills" data-label="Skills">
+                                <i class="fa-solid fa-layer-group"></i>
+                            </a></li>
+                        <!--services-->
+                        <li><a href="#services" data-label="Services">
+                                <i class="fa-solid fa-screwdriver-wrench"></i>
+                            </a></li>
+                        <!--pricing-->
+                        <li><a href="#pricing" data-label="Pricing">
+                                <i class="fa-solid fa-dollar-sign"></i>
+                            </a></li>
+                        <!--project-->
+                        <li><a href="#projects" data-label="Projects">
+                                <i class="fa-solid fa-briefcase"></i>
+                            </a></li>
+                        <!--Education and work (Resume)-->
+                        <li><a href="#edu-work" data-label="Resume">
+                                <i class="fa-solid fa-file-lines"></i>
+                            </a></li>
+                        <!--clients-->
+                        <li><a href="#testimonials" data-label="Testimonials">
+                                <i class="fa-regular fa-comment-dots"></i>
+                            </a></li>
+                        <!--contact-->
+                        <li><a href="#contact" data-label="Contact">
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </a></li>
+                    </ul>
+                </nav>
+            </header>
+            <!--**profile*********-->
+            <div class="profile-container">
+                <div class="user-profile bg-gredient">
+                    <!--profile-box-->
+                    <div class="user-profile-container">
+                        <!--img-->
+                        <div class="user-profile-img">
+                            <img src="images/profile.jpeg" alt="Nahom Worku" />
+                        </div>
+                        <!--text-->
+                        <div class="user-profile-text">
+                            <span> FullStack Data Engineer </span>
+                            <h1>Nahom Worku</h1>
+                            <!--social-->
+                            <div class="profile-social-container">
+                                <a href="https://github.com/Nahomworku1" target="_blank"><i class="fa-brands fa-github"></i></a>
+                                        
+                                <a href="https://wa.me/393509hadtobe businesswhatsapp-number" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                                <a href="https://www.linkedin.com/in/nahom-melkamu-worku-27b184299/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                            
+                                <a href="https://www.upwork.com/freelancers/~01e669294483015d69" target="_blank"><i class="fa-brands fa-upwork"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--btns-->
+                    <div class="user-profile-btns">
+                        <a href="cv/Resume.pdf" download target="_blank">Download CV</a>
+                        <a href="#contact">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--==all-content==================================-->
+        <div class="all-content">
+
+            <!--==About-us============================-->
+            <section id="about-us" class="section-container">
+                <h3>Hello, I'm <span id="role">Backend Developer</span></h3>
+                <h1>Building AI-Driven Systems... a <span>Data Engineer</span> with expertise in Automation and Cloud Solutions.</h1>
+                <p>Experienced in designing intelligent backend architectures, AI automation, and cloud-based solutions. Strong background in data science, API development, and scalable infrastructure, combining advanced analytics with automation to drive business impact.</p>
+                <!--projects-completed-numbers-->
+                <div class="project-container-about">
+                    <!--box-->
+                    <div class="project-container-box">
+                        <span>19+</span>
+                        <strong>Completed Projects</strong>
+                    </div>
+                    <!--box-->
+                    <div class="project-container-box">
+                        <span>3+</span>
+                        <strong>Years of Experience</strong>
+                    </div>
+                    <!--box-->
+                    <div class="project-container-box">
+                        <span>2+</span>
+                        <strong>Awards Winning</strong>
+                    </div>
+                </div>
+            </section>
+
+            <!--==skills==============================-->
+            <section id="skills" class="section-container">
+                <!--heading-->
+                <div class="section-heading">
+                    <span><i class="fa-solid fa-layer-group"></i> Technical Skills</span>
+                    <h3>Technologies</h3>
+                </div>
+
+                <!--container-->
+                <div class="skill-box-container">
+                    <!--python-->
+                    <div class="skill-box bg-gredient"  data-aos="fade-up">
+                        <!--heading-->
+                        <div class="skill-box-content">
+                            <i class="fa-brands fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <!--bar-->
+                        <div class="skill-box-bar">
+                            <span style="width: 80%;"></span>
+                        </div>
+                        <!--percentage-->
+                        <span class="skill-box-percentage">80%</span>
+                    </div>
+                    <!--FastAPI-->
+                    <div class="skill-box bg-gredient"  data-aos="fade-up">
+                        <!--heading-->
+                        <div class="skill-box-content">
+                            <i class="fa-solid fa-bolt"></i>
+                            <span>FastAPI</span>
+                        </div>
+                        <!--bar-->
+                        <div class="skill-box-bar">
+                            <span style="width: 90%;"></span>
+                        </div>
+                        <!--percentage-->
+                        <span class="skill-box-percentage">90%</span>
+                    </div>
+                    <!-- Aws -->
+<div class="skill-box bg-gredient" data-aos="fade-up">
+    <!--heading-->
+    <div class="skill-box-content">
+        <i class="fa-brands fa-aws fa-xs"></i>
+        <span> Aws</span>
+    </div>
+    <!--bar-->
+    <div class="skill-box-bar">
+        <span style="width: 90%;">80%</span>
+    </div>
+    <!--percentage-->
+    <span class="skill-box-percentage">90%</span>
+</div>
+                    <!--html css-->
+                    <div class="skill-box bg-gredient"  data-aos="fade-up">
+                        <!--heading-->
+                        <div class="skill-box-content">
+                            <i class="fa-solid fa-server"></i>
+                            <span> BigQuery </span>
+                        </div>
+                        <!--bar-->
+                        <div class="skill-box-bar">
+                            <span style="width: 80%;"></span>
+                        </div>
+                        <!--percentage-->
+                        <span class="skill-box-percentage">80%</span>
+                    </div>
+                    <!--MySql-->
+                    <div class="skill-box bg-gredient"  data-aos="fade-up">
+                        <!--heading-->
+                        <div class="skill-box-content">
+                            <i class="fa-solid fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+                        <!--bar-->
+                        <div class="skill-box-bar">
+                            <span style="width: 95%;"></span>
+                        </div>
+                        <!--percentage-->
+                        <span class="skill-box-percentage">95%</span>
+                    </div>
+                    <!--MongoDB-->
+                    <div class="skill-box bg-gredient"  data-aos="fade-up">
+                        <!--heading-->
+                        <div class="skill-box-content">
+                            <i class="fa-solid fa-leaf"></i>
+                            <span>MongoDB</span>
+                        </div>
+                        <!--bar-->
+                        <div class="skill-box-bar">
+                            <span style="width: 90%;"></span>
+                        </div>
+                        <!--percentage-->
+                        <span class="skill-box-percentage">90%</span>
+                    </div>
+                </div>
+
+                <!--message-->
+                <p class="service-message">Contact Us For Need Any Help And Services <a href="#contact">Let's get Started</a>
+                </p>
+            </section>
+
+            <!--==service=============================-->
+            <section id="services" class="section-container">
+                <!--heading-->
+                <div class="section-heading">
+                    <span><i class="fa-solid fa-screwdriver-wrench"></i> Our Services</span>
+                    <h3>What Services I Provide ?</h3>
+                </div>
+
+                <!--container-->
+                <div class="service-container">
+                    <!--box-->
+                    <div class="service-box bg-gredient"  data-aos="fade-up">
+                        <!--heading-->
+                        <div class="service-box-heading">
+                            <!--icon-->
+                            <div class="service-box-icon">
+                                <img src="images/graphic.png" alt="graphic" />
+                            </div>
+                            <!--text-->
+                            <div class="service-box-heading-text">
+                                <span>2 Developers</span>
+                                <strong>Graphic Desginer</strong>
+                            </div>
+                        </div>
+                        <!--details-->
+                        <p class="service-box-details">Data models in SAP PowerDesigner ETL process design &
+                            implementation: Apache Airflow / AWS / Python.</p>
+                        <!--link-->
+                        <a href="#">Get Started</a>
+                    </div>
+                    <!--box-->
+                    <div class="service-box bg-gredient"  data-aos="fade-up">
+                        <!--heading-->
+                        <div class="service-box-heading">
+                            <!--icon-->
+                            <div class="service-box-icon">
+                                <img src="images/web.png" alt="graphic" />
+                            </div>
+                            <!--text-->
+                            <div class="service-box-heading-text">
+                                <span>4 Developers</span>
+                                <strong>Data Engineering</strong>
+                            </div>
+                        </div>
+                        <!--details-->
+                        <p class="service-box-details">Building efficient data pipelines using Apache Kafka, AWS Glue, and other tools to process large volumes of data. I create systems for seamless data storage, transformation, and access, supporting business intelligence and machine learning initiatives.
+
+.</p>
+                        <!--link-->
+                        <a href="#">Get Started</a>
+                    </div>
+                    <!--box-->
+                    <div class="service-box bg-gredient"  data-aos="fade-up">
+                        <!--heading-->
+                        <div class="service-box-heading">
+                            <!--icon-->
+                            <div class="service-box-icon">
+                                <img src="images/tech.png" alt="tech" />
+                            </div>
+                            <!--text-->
+                            <div class="service-box-heading-text">
+                                <span>2 Developers</span>
+                                <strong>Technical Preparation</strong>
+                            </div>
+                        </div>
+                        <!--details-->
+                        <p class="service-box-details">Detailed data workflow description, solution design and
+                            architecture, technical requirements specification.</p>
+                        <!--link-->
+                        <a href="#">Get Started</a>
+                    </div>
+                    <!--box-->
+                    <div class="service-box bg-gredient"  data-aos="fade-up">
+                        <!--heading-->
+                        <div class="service-box-heading">
+                            <!--icon-->
+                            <div class="service-box-icon">
+                                <img src="images/devops.png" alt="graphic" />
+                            </div>
+                            <!--text-->
+                            <div class="service-box-heading-text">
+                                <span>2 Developers</span>
+                                <strong>DevOps</strong>
+                            </div>
+                        </div>
+                        <!--details-->
+                        <p class="service-box-details">Data models in SAP PowerDesigner ETL process design &
+                            implementation: Apache Airflow / AWS / Python.</p>
+                        <!--link-->
+                        <a href="#">Get Started</a>
+                    </div>
+                </div>
+
+                <!--message-->
+                <p class="service-message">Contact Us For Need Any Help And Services <a href="#contact">Let's get Started</a>
+                </p>
+            </section>
+
+            <!--==pricing=============================-->
+            <section id="pricing" class="section-container">
+
+                <!--heading-->
+                <div class="section-heading">
+                    <span><i class="fa-solid fa-dollar-sign"></i> Pricing</span>
+                    <h3>Amazing Pricing For Your Projects</h3>
+                </div>
+
+                <!--==plan-container======================-->
+                <div class="plan-container">
+                    <!--box-->
+                    <div class="plan-box bg-gredient"  data-aos="fade-up">
+                        <span class="plan-name">Basic</span>
+                        <span class="price">$400</span>
+                        <a href="#contact">Order Now</a>
+                        <ul class="pricing-box-feature">
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Create data models is SAP PowerDesigner</span>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Preparation and participation in POCs and demos</span>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Development and implementation of ETL pipelines</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="plan-box bg-gredient"  data-aos="fade-up">
+                        <span class="plan-name">Pro</span>
+                        <span class="price">$800</span>
+                        <a href="#contact">Order Now</a>
+                        <ul class="pricing-box-feature">
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Create data models is SAP PowerDesigner</span>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Preparation and participation in POCs and demos</span>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Development and implementation of ETL pipelines</span>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Preparation and participation in POCs and demos</span>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Development and implementation of ETL pipelines</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="plan-box bg-gredient"  data-aos="fade-up">
+                        <span class="plan-name">Premium</span>
+                        <span class="price">$1400</span>
+                        <a href="#contact">Order Now</a>
+                        <ul class="pricing-box-feature">
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Create data models is SAP PowerDesigner</span>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Preparation and participation in POCs and demos</span>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Development and implementation of ETL pipelines</span>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Create data models is SAP PowerDesigner</span>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Preparation and participation in POCs and demos</span>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Development and implementation of ETL pipelines</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="plan-box bg-gredient"  data-aos="fade-up">
+                        <span class="plan-name">Ultimate</span>
+                        <span class="price">$3000</span>
+                        <a href="#contact">Order Now</a>
+                        <ul class="pricing-box-feature">
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Create data models is SAP PowerDesigner</span>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Preparation and participation in POCs and demos</span>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Development and implementation of ETL pipelines</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Create data models is SAP PowerDesigner</span>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Preparation and participation in POCs and demos</span>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Development and implementation of ETL pipelines</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Create data models is SAP PowerDesigner</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </section>
+
+            <!--==projects============================-->
+            <section id="projects" class="section-container">
+
+                <!--heading-->
+                <div class="section-heading">
+                    <span><i class="fa-solid fa-briefcase"></i> Projects</span>
+                    <h3>Explore portfolio By Technology</h3>
+                </div>
+
+                <!--filter-->
+                <ul class="project-list">
+                    <li class="active" data-filter="all">All</li>
+                    <li data-filter="FastAPI">FastAPI</li>
+                    <li data-filter="AWS">AWS</li>
+                </ul>
+
+                <!--container-->
+                <div class="project-container">
+                    <!--project-box-->
+                    <a href="#" class="project-box" data-category="FastAPI"  data-aos="fade-up">
+                        <!--img-->
+                        <div class="project-box-img">
+                            <img src="images/p2.jpg" alt="project" />
+                        </div>
+                        <!--text-->
+                        <div class="project-box-text-container">
+                            <!--detail-->
+                            <div class="project-box-text">
+                                <strong>Building efficient data pipelines</strong>
+                                <span>Using Apache Kafka</span>
+                            </div>
+                            <!--link-icon-->
+                            <div class="project-box-btn">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <!--project-box-->
+                    <a href="#" class="project-box" data-category="AWS"  data-aos="fade-up">
+                        <!--img-->
+                        <div class="project-box-img">
+                            <img src="images/p3.jpg" alt="project" />
+                        </div>
+                        <!--text-->
+                        <div class="project-box-text-container">
+                            <!--detail-->
+                            <div class="project-box-text">
+                                <strong>AWS</strong>
+                                <span>From cloud architecture design to serverless computing </span>
+                            </div>
+                            <!--link-icon-->
+                            <div class="project-box-btn">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <!--project-box-->
+                    <a href="#" class="project-box" data-category="FastAPI"  data-aos="fade-up">
+                        <!--img-->
+                        <div class="project-box-img">
+                            <img src="images/p1.jpg" alt="project" />
+                        </div>
+                        <!--text-->
+                        <div class="project-box-text-container">
+                            <!--detail-->
+                            <div class="project-box-text">
+                                <strong>Dashboard of the Website</strong>
+                                <span>FastAPI</span>
+                            </div>
+                            <!--link-icon-->
+                            <div class="project-box-btn">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </section>
+
+            <!--==work and education==================-->
+            <section id="edu-work" class="section-container">
+
+                <!--heading-->
+                <div class="section-heading">
+                    <span><i class="fa-regular fa-file-lines"></i> Resume</span>
+                    <h3>Work Experience & Education</h3>
+                </div>
+
+
+                <!--==container=======================-->
+                <div class="edu-work-container">
+                    <!--==Education=================-->
+                    <div class="edu-container">
+                        <span class="edu-work-label">
+                            <i class="fa-solid fa-building-columns"></i>
+                            Education
+                        </span>
+
+                        <!--box-container-->
+                        <div class="edu-work-box-container" data-aos="fade-up">
+                            <!--box-->
+                            <div class="edu-work-box">
+                                <span class="edu-work-year">2018 - 2022</span>
+                                <strong>BS in Software Engineering</strong>
+                                <span class="edu-work-location">Carson, USA</span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim repellendus natus
+                                    repellat</p>
+                            </div>
+                            <!--box-->
+                            <div class="edu-work-box">
+                                <span class="edu-work-year">2016 - 2018</span>
+                                <strong>High School </strong>
+                                <span class="edu-work-location">Los Angeles, USA</span>
+                                <p>Crafting captivating digital experiences that put users at the heart of the design.
+                                </p>
+                            </div>
+                            <!--box-->
+                            <div class="edu-work-box">
+                                <span class="edu-work-year">2018 - 2022</span>
+                                <strong>BS in Software Engineering</strong>
+                                <span class="edu-work-location">Carson, USA</span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim repellendus natus
+                                    repellat</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--==work======================-->
+                    <div class="work-container"  data-aos="fade-up">
+                        <span class="edu-work-label">
+                            <i class="fa-solid fa-briefcase"></i>
+                            Work
+                        </span>
+
+                        <!--box-container-->
+                        <div class="edu-work-box-container">
+                            <!--box-->
+                            <div class="edu-work-box">
+                                <span class="edu-work-year">2022 - Present</span>
+                                <strong>Tead Web Developer</strong>
+                                <span class="edu-work-location">New York, MicroSoft</span>
+                                <p>Continuous enhancement and development of a solution that helps to reveal, manage.
+                                </p>
+                            </div>
+                            <!--box-->
+                            <div class="edu-work-box">
+                                <span class="edu-work-year">2020 - 2022</span>
+                                <strong>Senior Web Developer</strong>
+                                <span class="edu-work-location">New York, MicroSoft</span>
+                                <p>Continuous enhancement and development of a solution that helps to reveal, manage.
+                                </p>
+                            </div>
+                            <!--box-->
+                            <div class="edu-work-box">
+                                <span class="edu-work-year">2019 - 2020</span>
+                                <strong>Web Developer</strong>
+                                <span class="edu-work-location">New York, MicroSoft</span>
+                                <p>Continuous enhancement and development of a solution that helps to reveal, manage.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+            <!--==clients=================================-->
+            <section id="testimonials" class="section-container">
+
+                <!--heading-->
+                <div class="section-heading"  data-aos="fade-up">
+                    <span><i class="fa-regular fa-comment-dots"></i> Testimonials</span>
+                    <h3>Here's what my clients say</h3>
+                </div>
+
+                <!--container-->
+                <div class="testimonials-container" data-aos="fade-up">
+                    <!-- slider -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+
+                            <!--slide-->
+                            <div class="swiper-slide">
+                                <!--box-->
+                                <div class="testimonials-box bg-gredient">
+                                    <!--review-->
+                                    <div class="testimonials-reviews">
+                                        <i class="fa-solid fa-star"></i>
+                                        
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p>
+                                        perspiciatis voluptates. Reiciendis provident nemo veniam aliquam.</p>
+                                    <div class="client-profile">
+                                        <!--img-->
+                                        <div class="client-profile-img">
+                                            <img src="images/c1.jpg" alt="client" />
+                                        </div>
+                                        <!--text-->
+                                        <div class="client-profile-text">
+                                            <strong>Clayton Ayers</strong>
+                                            <span>CEO, Abc.co</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--slide-end-->
+
+                            <!--slide-->
+                            <div class="swiper-slide">
+                                <!--box-->
+                                <div class="testimonials-box bg-gredient">
+                                    <!--review-->
+                                    <div class="testimonials-reviews">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half-alt"></i>
+                                    </div>
+                                    <p>nemo veniam aliquam.</p>
+                                    <div class="client-profile">
+                                        <!--img-->
+                                        <div class="client-profile-img">
+                                            <img src="images/c1.jpg" alt="client" />
+                                        </div>
+                                        <!--text-->
+                                        <div class="client-profile-text">
+                                            <strong>Clayton Ayers</strong>
+                                            <span>CEO, Abc.co</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--slide-end-->
+
+                            <!--slide-->
+                            <div class="swiper-slide">
+                                <!--box-->
+                                <div class="testimonials-box bg-gredient">
+                                    <!--review-->
+                                    <div class="testimonials-reviews">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p>veniam aliquam.</p>
+                                    <div class="client-profile">
+                                        <!--img-->
+                                        <div class="client-profile-img">
+                                            <img src="images/c1.jpg" alt="client" />
+                                        </div>
+                                        <!--text-->
+                                        <div class="client-profile-text">
+                                            <strong>Clayton Ayers</strong>
+                                            <span>CEO, Abc.co</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--slide-end-->
+
+                            <!--slide-->
+                            <div class="swiper-slide">
+                                <!--box-->
+                                <div class="testimonials-box bg-gredient">
+                                    <!--review-->
+                                    <div class="testimonials-reviews">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p>veniam aliquam.</p>
+                                    <div class="client-profile">
+                                        <!--img-->
+                                        <div class="client-profile-img">
+                                            <img src="images/c1.jpg" alt="client" />
+                                        </div>
+                                        <!--text-->
+                                        <div class="client-profile-text">
+                                            <strong>Clayton Ayers</strong>
+                                            <span>CEO, Abc.co</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--slide-end-->
+
+                            <!--slide-->
+                            <div class="swiper-slide">
+                                <!--box-->
+                                <div class="testimonials-box bg-gredient">
+                                    <!--review-->
+                                    <div class="testimonials-reviews">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p> veniam aliquam.</p>
+                                    <div class="client-profile">
+                                        <!--img-->
+                                        <div class="client-profile-img">
+                                            <img src="images/c1.jpg" alt="client" />
+                                        </div>
+                                        <!--text-->
+                                        <div class="client-profile-text">
+                                            <strong>Clayton Ayers</strong>
+                                            <span>CEO, Abc.co</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--slide-end-->
+
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+                <!--message-->
+                <p class="testimonials-message"  data-aos="fade-up">More than <span>200+ companies</span> trusted us worldwide</p>
+
+                <!--client-logos-->
+                <div class="client-logos"  data-aos="fade-up">
+                    <img src="images/b1.png" alt="logo"/>
+                    <img src="images/b2.png" alt="logo"/>
+                    <img src="images/b3.png" alt="logo"/>
+                    <img src="images/b4.png" alt="logo"/>
+                    <img src="images/b1.png" alt="logo"/>
+                    <img src="images/b2.png" alt="logo"/>
+                </div>
+
+            </section>
+
+            <!--==contact=================================-->
+            <section id="contact" class="section-container">
+                
+                <!--heading-->
+                <div class="section-heading">
+                    <span><i class="fa-solid fa-paper-plane"></i> Contact</span>
+                    <h3>Let's Get In Touch!</h3>
+                </div>
+
+                <!--container-->
+                <div class="contact-box-container">
+                    <!--box-->
+                    <div class="contact-box bg-gredient"  data-aos="fade-up">
+                        <!--icon-->
+                        <div class="contact-box-icon">
+                            <i class="fa-solid fa-address-book"></i>
+                            <strong>Phone</strong>
+                        </div>
+                        <!--detail-->
+                        <span>+39 350 905 ****</span>
+                    </div>
+                    <!--box-->
+                    <div class="contact-box bg-gredient"  data-aos="fade-up">
+                        <!--icon-->
+                        <div class="contact-box-icon">
+                            <i class="fa-solid fa-envelope"></i>
+                            <strong>Address</strong>
+                        </div>
+                        <!--detail-->
+                        <span>nahommelkamu21@gmail.com</span>
+                    </div>
+
+                     <!--box-->
+                     <div class="contact-box bg-gredient contact-box-location"  data-aos="fade-up">
+                        <!--icon-->
+                        <div class="contact-box-icon">
+                            <i class="fa-solid fa-map-location-dot"></i>
+                            <strong>Location</strong>
+                        </div>
+                        <!--detail-->
+                        <span>Cassino, Italy</span>
+                    </div>
+                </div>
+
+                <!--map-->
+                <div class="contact-map"  data-aos="fade-up">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47822.636642129495!2d13.785947219601335!3d41.48444699957917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133abc05c564be41%3A0x9eedaa5bd9141c33!2s03043%20Cassino%2C%20Province%20of%20Frosinone!5e0!3m2!1sen!2sit!4v1741031714566!5m2!1sen!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+            </section>
+
+        </div>
+    </div>
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!--aos for animation-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        // word Trasition Effect 
+        document.addEventListener("DOMContentLoaded", () => {
+            const roles = ["Data Architect", "Cloud Engineer", "Backend Developer"];
+            const roleElement = document.getElementById('role');
+            let roleIndex = 0;
+            let letterIndex = 0;
+            let typingInterval;
+
+            function typeRole() {
+                roleElement.style.opacity = 0;
+                setTimeout(() => {
+                    roleElement.textContent = "";
+                    letterIndex = 0;
+
+                    typingInterval = setInterval(() => {
+                        if (letterIndex < roles[roleIndex].length) {
+                            roleElement.textContent += roles[roleIndex].charAt(letterIndex);
+                            letterIndex++;
+                        }
+                        else {
+                            clearInterval(typingInterval);
+                            setTimeout(() => {
+                                roleIndex = (roleIndex + 1) % roles.length;
+                                typeRole();
+                            }, 1000);
+                        }
+                    }, 150);
+
+                    roleElement.style.opacity = 1;
+                }, 500);
+            }
+            // start typing tyhe first role
+            typeRole();
+        });
+
+        // project filter 
+        document.addEventListener("DOMContentLoaded", function () {
+            const filterButtons = document.querySelectorAll('.project-list li');
+            const projects = document.querySelectorAll(".project-box");
+
+            filterButtons.forEach((button) => {
+                button.addEventListener("click", () => {
+                    filterButtons.forEach((btn) => btn.classList.remove("active"));
+                    button.classList.add("active");
+
+                    const filter = button.getAttribute("data-filter");
+
+                    projects.forEach((project) => {
+                        if (filter === "all" || project.getAttribute("data-category") === filter) {
+                            project.style.display = "block";
+                        }
+                        else {
+                            project.style.display = "none";
+                        }
+                    });
+                });
+            });
+        });
+
+        //testimonials slider
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 1.5,
+                    spaceBetween: 20,
+                },
+                1024: {
+                    slidesPerView: 1.5,
+                    spaceBetween: 20,
+                },
+            },
+        });
+        
+        // Dark light mode 
+        document.addEventListener("DOMContentLoaded", function(){
+            const toggleButton = document.querySelector(".dark-light-btn");
+            const htmlElement = document.documentElement;
+
+            const currentMode = localStorage.getItem("mode");
+
+            if (currentMode === "light") {
+                htmlElement.classList.add("light-mode");
+                toggleButton.innerHTML = "<i class='fa-regular fa-moon' ></i>";
+            }
+
+            toggleButton.addEventListener("click", ()=>{
+                htmlElement.classList.toggle("light-mode");
+
+                //update the button icon
+                const isLightMode = htmlElement.classList.contains("light-mode");
+                toggleButton.innerHTML = isLightMode ? "<i class='fa-regular fa-moon' ></i>" : "<i class='fa-regular fa-sun'></i>" ;
+                
+                //save mode in local storage
+                localStorage.setItem("mode", isLightMode ? "light" : "dark");
+            });
+
+
+
+
+            // nav auto active on thier section 
+            const section = document.querySelectorAll("section");
+            const navLinks = document.querySelectorAll("ul li a");
+
+            function setActiveLink(){
+                let currentSection = "";
+
+                section.forEach((section) =>{
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.offsetHeight;
+
+                    if (window.scrollY >= sectionTop - sectionHeight / 3) {
+                        currentSection = section.getAttribute("id");
+                    }
+                });
+
+                navLinks.forEach((link)=>{
+                    link.classList.remove("active");
+                    if (link.getAttribute("href") === `#${currentSection}`) {
+                        link.classList.add("active");
+                    }
+                })
+            }
+
+            window.addEventListener("scroll", setActiveLink);
+        });
+
+        //aos install
+        AOS.init();
+
+    </script>
+</body>
+
+</html>
